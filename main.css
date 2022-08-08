@@ -1,0 +1,38 @@
+.label{
+    font-size: 25px;
+    display: block;
+    width: fit-content;
+    position: relative;
+    cursor: pointer;
+}
+.form{
+    padding: 50px;
+    padding-left: 50px;
+}
+.span{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    background: red;
+    top: 0;
+    left: -30px;
+}
+.radio:checked ~ .span{
+    background-color: black;
+}
+.radio{
+    position: absolute;
+    opacity: 0;
+    left: 0;
+}
+.radio:checked ~ .span::after{
+    width: 5px;
+    height: 10px;
+    border:  solid #fff;
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
