@@ -1,10 +1,9 @@
+import Navbar from "./components/Navbar";
+
 export default function App() {
   return (
-    <div>
-      <h1>Repo testing</h1>
-      <ul>
-        <li>Test1 - check-force</li>
-      </ul>
+    <div style={{ maxWidth: 1400, marginInline: 'auto', paddingInline: 80, paddingBlock: 20 }}>
+      <Navbar />
     </div>
   )
 }
