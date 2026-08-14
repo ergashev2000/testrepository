@@ -3,8 +3,7 @@ export default function App() {
     <div>
       <h1>Repo testing</h1>
       <ul>
-        <li>Test1 - check -force</li>
-        <li>Test2 - check -force</li>
+        <li>Test1 - check-force</li>
       </ul>
     </div>
   )
